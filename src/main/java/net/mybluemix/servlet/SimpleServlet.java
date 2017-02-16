@@ -45,7 +45,7 @@ public class SimpleServlet extends HttpServlet {
  			stmt.execute(sql);
  			
  			msgPage.append("<br>STEP 5: Filling the fields records");
- 			sql = "INSERT INTO " + table + " VALUES (\'Raphael Hespanhol\', 30)";
+ 			sql = "INSERT INTO " + table + " VALUES (\'Biao Wu\', 30)";
  			stmt.executeUpdate(sql);
  			
  			msgPage.append("<br>STEP 6: Executing a query");
